@@ -66,9 +66,9 @@ function AuthenticatedApp() {
             <Form.Group>
               <Form.Label>
                 Given a preorder serialized binary tree, each tree node has an
-                integer value. Calculate the sum of the longest path. Each node
-                should be separated by , and use # as null node. Example:
-                1,2,#,5,2,#,#,#,6,9,#,1,#,#,7,#,#
+                integer value. Calculate the maximum sum of the longest path.
+                Each node should be separated by , and use # as null node.
+                Example: 1,2,#,5,2,#,#,#,6,9,#,1,#,#,7,#,#
               </Form.Label>
               <Form.Control
                 as="textarea"
