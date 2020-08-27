@@ -83,8 +83,9 @@ Backend HIGHLIGHTS:
 3. Added customized GlobalExceptionHandler for Exception
    NOTES:
 4. When input serialized binary tree is too big, we can implement multipart/form-data to upload serialized tree data.
-
+```
 Frontend Project structure: - index.js: Entry point for app - App.js: Route Matchers - AppProviders.js: Taking a branch higher up in the tree of app simplifies the maintenance authentication of app - AuthProvider.js: A provider for app's authentication - UserProvider.js: The component which has the user data prevents the rest of the app from being rendered until the user data is retrieved - AuthenticatedApp.js : Main App (Calculation) UI - UnauthenticatedApp.js : Login/Signup UI
 
 Backend Project structure:
 Under com.example.demo - exception: contains customized exception handler - filter: contains jwt request filter - models: contains all models - repository: contains user repository - service: auth user services - utils: contains jwt utils and utils that does binary tree parsing and maxsum calculation. - DemoApplication: contains the main class - DemoController: contains the api end points - SecurityConfigure: has the configs for spring security
+```
